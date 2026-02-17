@@ -50,3 +50,4 @@ opt.hlsearch = true
 
 opt.mouse = "a" -- mouse support... WARNING: Blasphemy
 vim.g.editorconfig = true
+vim.g.python3_host_prog = "/opt/homebrew/Caskroom/miniconda/base/envs/neovim/bin/python"
