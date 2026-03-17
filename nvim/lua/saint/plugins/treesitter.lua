@@ -40,6 +40,7 @@ return {
                 "json",
                 "bash",
                 "markdown",
+                "markdown_inline",
                 "yaml",
 
                 -- Optional but useful

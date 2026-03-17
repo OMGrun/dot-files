@@ -21,6 +21,7 @@ return {
                 html = { "prettier", stop_after_first = true },
                 json = { "prettier", stop_after_first = true },
                 markdown = { "prettier", stop_after_first = true },
+                yaml = { "prettier", stop_after_first = true },
                 -- add more later depending on what lsps you have!
             },
             format_on_save = {
