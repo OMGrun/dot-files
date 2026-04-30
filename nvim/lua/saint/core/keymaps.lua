@@ -1,7 +1,7 @@
 vim.g.mapleader = " "
 
 local keymap = vim.keymap -- for conciseness
-
+-- vs code
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 
 keymap.set("v", "J", ":m '>+1<CR>gv=gv", { desc = "moves lines down in visual selection" })
