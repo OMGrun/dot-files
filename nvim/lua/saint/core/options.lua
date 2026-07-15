@@ -55,7 +55,7 @@ vim.g.python3_host_prog = "/opt/homebrew/Caskroom/miniconda/base/envs/neovim/bin
 -- I find auto open annoying, keep in mind setting this option will require setting
 -- a keybind for `:noautocmd MoltenEnterOutput` to open the output again
 vim.g.molten_auto_open_output = false
-
+vim.g.skip_ts_context_commentstring_module = true
 -- this guide will be using image.nvim
 -- Don't forget to setup and install the plugin if you want to view image outputs
 vim.g.molten_image_provider = "image.nvim"
