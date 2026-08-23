@@ -1,7 +1,7 @@
 theme = Gruvbox Dark
 font-family = JetBrains Mono Nerd Font
 font-size = 19
-background-opacity = 0.7
+background-opacity = 0.8
 background-blur-radius = 30
 macos-titlebar-style = hidden
 window-padding-y = 10
