@@ -121,7 +121,7 @@ automatically-unhide-macos-hidden-apps = false
     alt-7 = 'workspace 7'
     alt-8 = 'workspace 8'
     alt-9 = 'workspace 9'
-    alt-a = 'workspace a' # In your config, you can drop workspace bindings that you don't need
+   # In your config, you can drop workspace bindings that you don't need
    # alt-b = 'workspace B'
    # alt-c = 'workspace C'
    # alt-d = 'workspace D'
@@ -206,13 +206,13 @@ automatically-unhide-macos-hidden-apps = false
 
 [workspace-to-monitor-force-assignment]
     # Using monitor names (case insensitive regex)
-    1 = 1      # Will match any monitor with "dell" in the name
-    2 = 1
-    3 = 1
-    4 = 1
-    5 = 1
+    1 = ['main', 'lg']      # Will match any monitor with "dell" in the name
+    2 = ['main', 'lg']
+    3 = ['main', 'lg']
+    4 = ['main', 'lg']
+    5 = ['main', 'lg']
 
-    6 = 2       # Mac's built-in display
-    7 = 2
-    8 = 2
-    9 = 3
+    6 =['secondary', 'dell']       # Mac's built-in display
+    7 =['secondary', 'dell']
+    8 =['secondary', 'dell']
+    9 =['sidecar display', 'dell']
